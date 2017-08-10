@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalysisLibrary", "AnalysisLibrary\AnalysisLibrary.csproj", "{BB365D5B-30D5-49DC-8629-C59291D70507}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextMiningService", "TextMiningService\TextMiningService.csproj", "{69C7CBC0-2BF4-418E-8C55-D5BD3B940E88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextMiningService.Tests", "TextMiningService.Tests\TextMiningService.Tests.csproj", "{48905FBD-26EE-440C-8360-7DB8171347E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{BB365D5B-30D5-49DC-8629-C59291D70507}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB365D5B-30D5-49DC-8629-C59291D70507}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB365D5B-30D5-49DC-8629-C59291D70507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69C7CBC0-2BF4-418E-8C55-D5BD3B940E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69C7CBC0-2BF4-418E-8C55-D5BD3B940E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69C7CBC0-2BF4-418E-8C55-D5BD3B940E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69C7CBC0-2BF4-418E-8C55-D5BD3B940E88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48905FBD-26EE-440C-8360-7DB8171347E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48905FBD-26EE-440C-8360-7DB8171347E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48905FBD-26EE-440C-8360-7DB8171347E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48905FBD-26EE-440C-8360-7DB8171347E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
